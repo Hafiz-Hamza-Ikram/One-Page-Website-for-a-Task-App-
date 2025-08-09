@@ -21,7 +21,7 @@
 
 ## 📸 Preview
 
--  [Click here to view live](https://yourusername.github.io/responsive-sidebar-layout/)
+-  [Click here to view live](https://hafiz-hamza-ikram.github.io/One-Page-Website-for-a-Task-App-/)
 
 ## ✨ Credits
 
