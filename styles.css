@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #f8f9fa;
+    color: #333;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/dot-grid.png');
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #4a90e2, #6a5acd);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+header button {
+    padding: 12px 25px;
+    border: none;
+    background: white;
+    color: #007aff;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+    animation: pulse 2s infinite;
+}
+header button:hover {
+    background: #e6e6e6;
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #007aff;
+}
+
+/* Features */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.feature {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+.feature:hover {
+    background-color: #007aff;
+    color: white;
+    transform: scale(1.5);
+}
+.feature i {
+    font-size: 2.5rem;
+    color: #007aff;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+}
+.feature:hover i {
+    color: white;
+}
+
+/* Reviews Section */
+.reviews-section {
+    background: linear-gradient(135deg, #eef4ff, #ffffff);
+    padding: 60px 20px;
+    border-radius: 10px;
+}
+.reviews {
+    display: grid;
+    gap: 25px;
+    max-width: 900px;
+    margin: auto;
+}
+.review {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    line-height: 1.6;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+.review:hover {
+    background-color: #007aff;
+    color: white;
+    transform: scale(1.05);
+}
+.review strong {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #007aff;
+    transition: color 0.3s ease;
+}
+.review:hover strong {
+    color: white;
+}
+
+/* Pricing */
+.pricing {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.price-card {
+    background: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+.price-card:hover {
+    background-color: #007aff;
+    color: white;
+    transform: scale(1.05);
+}
+.price-card h3 {
+    margin-bottom: 10px;
+}
+.price-card h2 {
+    color: #007aff;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+.price-card:hover h2 {
+    color: white;
+}
+.price-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.price-card ul li {
+    margin: 8px 0;
+    transition: color 0.3s ease;
+}
+.price-card button {
+    background: #3083db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.price-card button:hover {
+    background: white;
+    color: #007aff;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid rgba(255,255,255,0.1);
+}
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+footer a:hover {
+    color: #007aff;
+}
+
